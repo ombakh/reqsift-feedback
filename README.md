@@ -5,9 +5,9 @@
 ReqSift turns a text-based RFP PDF or TXT file into an editable, source-linked compliance matrix.
 The document is processed in the browser: there is no file upload, cloud document store, or AI API.
 
-[Try ReqSift free](https://reqsift.ombakh.chatgpt.site) ·
-[Read the compliance matrix guide](https://reqsift.ombakh.chatgpt.site/guides/rfp-compliance-matrix) ·
-[Use the RFP requirements checklist](https://reqsift.ombakh.chatgpt.site/guides/rfp-requirements-checklist)
+[Try ReqSift free](https://ombakh.github.io) ·
+[Read the compliance matrix guide](https://ombakh.github.io/guides/rfp-compliance-matrix) ·
+[Use the RFP requirements checklist](https://ombakh.github.io/guides/rfp-requirements-checklist)
 
 ## What it extracts
 
@@ -32,7 +32,7 @@ unauthorized material into browser software.
 - **Watch this repository** to receive paid-release and product-update notifications.
 - [Register Pro purchase interest](https://github.com/ombakh/reqsift-feedback/issues/new?template=pro-interest.yml) to be notified through GitHub when checkout opens.
 - [Open a feedback issue](https://github.com/ombakh/reqsift-feedback/issues/new?template=feedback.yml) for a reproducible extraction problem or feature request.
-- [Open the free tool](https://reqsift.ombakh.chatgpt.site/#workspace) to test it with a non-sensitive RFP.
+- [Open the free tool](https://ombakh.github.io/#workspace) to test it with a non-sensitive RFP.
 
 The application source is maintained privately. This public repository is the product page, feedback
 tracker, and release channel.
