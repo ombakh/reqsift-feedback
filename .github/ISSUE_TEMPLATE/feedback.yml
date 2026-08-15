@@ -1,0 +1,42 @@
+name: Product feedback
+description: Report an extraction problem or suggest an improvement without sharing confidential RFP data.
+title: "Feedback: "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve ReqSift. Do not attach or paste confidential, controlled, proprietary, or personal information.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Feedback type
+      options:
+        - Missed requirement
+        - Incorrect category
+        - PDF import problem
+        - CSV or workflow improvement
+        - Other feature request
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Reproducible, non-sensitive example
+      description: Use invented or public text only. Explain what ReqSift produced and what you expected.
+      placeholder: "Example sentence: The contractor shall..."
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and operating system
+      placeholder: "Chrome 140 on Windows 11"
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Data safety
+      options:
+        - label: I confirm this report contains no confidential, controlled, proprietary, or personal information.
+          required: true

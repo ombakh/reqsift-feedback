@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Open ReqSift
+    url: https://reqsift.ombakh.chatgpt.site
+    about: Process a text-based RFP locally in your browser.
