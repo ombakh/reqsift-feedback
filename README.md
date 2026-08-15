@@ -1,24 +1,26 @@
 # ReqSift
 
-**Find every RFP obligation locally.**
+**Find RFP obligations locally.**
 
-ReqSift turns a text-based RFP PDF or TXT file into an editable, source-linked compliance matrix.
-The document is processed in the browser: there is no file upload, cloud document store, or AI API.
+ReqSift turns a package of up to 20 text-based RFP PDFs or TXT files into one editable,
+source-linked compliance matrix. The package is processed in the browser: there is no file upload,
+cloud document store, or AI API.
 
 [Try ReqSift free](https://ombakh.github.io) ·
+[See local package mode](https://ombakh.github.io/guides/local-rfp-shredder) ·
 [Read the compliance matrix guide](https://ombakh.github.io/guides/rfp-compliance-matrix) ·
-[Use the RFP requirements checklist](https://ombakh.github.io/guides/rfp-requirements-checklist)
+[Review the privacy boundary](https://ombakh.github.io/privacy)
 
 ## What it extracts
 
 - shall, must, required, and should language
 - deadlines, minimums, maximums, and prohibitions
 - submission, eligibility, technical, pricing, security, schedule, and legal categories
-- source page and section references from text-based PDFs
+- source file, page, and section references from text-based PDFs
 
-The output includes editable owner, status, response-location, and notes fields. The free version works
-with the first 25 extracted requirements. ReqSift Pro is planned as a $49 lifetime license with full
-matrix export and no per-document credits.
+The output includes editable owner, status, response-location, and notes fields. The free version
+accepts up to 20 files and works with the first 25 extracted requirements. ReqSift Pro will be a $49
+lifetime license with the complete package matrix, full export, and no per-document credits.
 
 ## Honest limitations
 
