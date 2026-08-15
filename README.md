@@ -30,6 +30,7 @@ unauthorized material into browser software.
 ## Follow the launch
 
 - **Watch this repository** to receive paid-release and product-update notifications.
+- [Register Pro purchase interest](https://github.com/ombakh/reqsift-feedback/issues/new?template=pro-interest.yml) to be notified through GitHub when checkout opens.
 - [Open a feedback issue](https://github.com/ombakh/reqsift-feedback/issues/new?template=feedback.yml) for a reproducible extraction problem or feature request.
 - [Open the free tool](https://reqsift.ombakh.chatgpt.site/#workspace) to test it with a non-sensitive RFP.
 

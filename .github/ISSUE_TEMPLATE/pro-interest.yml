@@ -1,0 +1,40 @@
+name: ReqSift Pro purchase interest
+description: Ask to be notified on GitHub when the paid checkout opens.
+title: "Pro interest: "
+labels:
+  - sales-interest
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in ReqSift Pro. This public issue records interest only; it is not an order and no payment is collected here. Do not include private or confidential information.
+  - type: dropdown
+    id: license
+    attributes:
+      label: License of interest
+      options:
+        - Pro lifetime — $49 for one user
+        - Team lifetime — $129 for a small internal team
+    validations:
+      required: true
+  - type: dropdown
+    id: use-case
+    attributes:
+      label: Primary use case
+      options:
+        - Government contracting proposals
+        - Commercial RFP responses
+        - Procurement or legal operations
+        - Grant or bid review
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgment
+    attributes:
+      label: Acknowledgment
+      options:
+        - label: Notify me through this GitHub issue when the checkout opens.
+          required: true
+        - label: I understand this issue is public and contains no confidential information.
+          required: true
